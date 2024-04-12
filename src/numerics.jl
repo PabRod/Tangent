@@ -4,7 +4,7 @@ export tangent
 """
     numderiv(f, x₀, ϵ = 1e-7)
 
-Returns the approximate numerical derivative of ``f(x)`` at ``x_0`` using the forward finite-difference method with a step ``\epsilon``.
+Returns the approximate numerical derivative of ``f(x)`` at ``x_0`` using the forward finite-difference method with a step ``\\epsilon``.
 Namely:
 
 ``f'(x_0) \\approx \\frac{f(x_0 + \\epsilon) - f(x_0)}{\\epsilon}``

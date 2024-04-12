@@ -5,7 +5,7 @@ using Plots
 """
     plottangent(f, x₀, xs, ϵ=1e-7)
 
-    Plots the approximate tangent of ``f(x)`` at ``x_0``.
+Plots the approximate tangent of ``f(x)`` at ``x_0``.
 """
 function plottangent(f, x₀, xs, ϵ=1e-7; kwargs...)
     # Compute the tangent
